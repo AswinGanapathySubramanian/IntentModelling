@@ -1,0 +1,599 @@
+2023-07-17 10:06:11,647 INFO    StreamThr :6344 [internal.py:wandb_internal():86] W&B internal server running at pid: 6344, started at: 2023-07-17 10:06:11.636170
+2023-07-17 10:06:11,658 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status
+2023-07-17 10:06:11,662 INFO    WriterThread:6344 [datastore.py:open_for_write():85] open: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\run-9qku1q90.wandb
+2023-07-17 10:06:11,682 DEBUG   SenderThread:6344 [sender.py:send():369] send: header
+2023-07-17 10:06:11,683 DEBUG   SenderThread:6344 [sender.py:send():369] send: run
+2023-07-17 10:06:12,700 INFO    SenderThread:6344 [dir_watcher.py:__init__():211] watching files in: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files
+2023-07-17 10:06:12,701 INFO    SenderThread:6344 [sender.py:_start_run_threads():1100] run started: 9qku1q90 with start time 1689606371.624076
+2023-07-17 10:06:12,701 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:06:12,701 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:06:12,707 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: check_version
+2023-07-17 10:06:12,708 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: check_version
+2023-07-17 10:06:13,360 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: run_start
+2023-07-17 10:06:13,374 DEBUG   HandlerThread:6344 [system_info.py:__init__():31] System info init
+2023-07-17 10:06:13,374 DEBUG   HandlerThread:6344 [system_info.py:__init__():46] System info init done
+2023-07-17 10:06:13,374 INFO    HandlerThread:6344 [system_monitor.py:start():181] Starting system monitor
+2023-07-17 10:06:13,375 INFO    SystemMonitor:6344 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-17 10:06:13,375 INFO    HandlerThread:6344 [system_monitor.py:probe():201] Collecting system info
+2023-07-17 10:06:13,389 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started cpu monitoring
+2023-07-17 10:06:13,401 DEBUG   HandlerThread:6344 [system_info.py:probe():195] Probing system
+2023-07-17 10:06:13,401 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started disk monitoring
+2023-07-17 10:06:13,415 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started memory monitoring
+2023-07-17 10:06:13,439 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started network monitoring
+2023-07-17 10:06:13,439 DEBUG   HandlerThread:6344 [gitlib.py:_init_repo():53] git repository is invalid
+2023-07-17 10:06:13,440 DEBUG   HandlerThread:6344 [system_info.py:probe():240] Probing system done
+2023-07-17 10:06:13,440 DEBUG   HandlerThread:6344 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.4', 'heartbeatAt': '2023-07-17T15:06:13.401739', 'startedAt': '2023-07-17T15:06:11.600866', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'DESKTOP-F6PF96J', 'username': 'aswin', 'executable': 'c:\\Users\\aswin\\anaconda3\\envs\\DeepL\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2803.0, 'min': 0.0, 'max': 2803.0}, 'cpu_freq_per_core': [{'current': 2803.0, 'min': 0.0, 'max': 2803.0}], 'disk': {'total': 439.45214462280273, 'used': 10.306419372558594}, 'memory': {'total': 15.681159973144531}}
+2023-07-17 10:06:13,440 INFO    HandlerThread:6344 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-17 10:06:13,440 INFO    HandlerThread:6344 [system_monitor.py:probe():214] Publishing system info
+2023-07-17 10:06:13,440 DEBUG   HandlerThread:6344 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-17 10:06:13,441 DEBUG   HandlerThread:6344 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-17 10:06:13,441 DEBUG   HandlerThread:6344 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-17 10:06:13,712 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\requirements.txt
+2023-07-17 10:06:13,712 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:06:13,713 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\conda-environment.yaml
+2023-07-17 10:06:20,649 DEBUG   HandlerThread:6344 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-17 10:06:20,651 INFO    HandlerThread:6344 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-17 10:06:20,651 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:06:20,651 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-17 10:06:20,652 DEBUG   SenderThread:6344 [sender.py:send():369] send: files
+2023-07-17 10:06:20,652 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-17 10:06:20,674 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:06:20,674 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:06:20,681 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: pause
+2023-07-17 10:06:20,681 INFO    HandlerThread:6344 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-17 10:06:20,681 INFO    HandlerThread:6344 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-17 10:06:20,681 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-17 10:06:20,682 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-17 10:06:20,682 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-17 10:06:20,682 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined disk monitor
+2023-07-17 10:06:20,682 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-17 10:06:20,682 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined memory monitor
+2023-07-17 10:06:20,683 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined network monitor
+2023-07-17 10:06:20,688 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: resume
+2023-07-17 10:06:20,688 INFO    HandlerThread:6344 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-17 10:06:20,688 INFO    HandlerThread:6344 [system_monitor.py:start():181] Starting system monitor
+2023-07-17 10:06:20,689 INFO    SystemMonitor:6344 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-17 10:06:20,690 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: pause
+2023-07-17 10:06:20,690 INFO    HandlerThread:6344 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-17 10:06:20,690 INFO    HandlerThread:6344 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-17 10:06:20,690 WARNING HandlerThread:6344 [interfaces.py:finish():207] Failed to finish cpu monitoring: cannot join thread before it is started
+2023-07-17 10:06:20,691 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started cpu monitoring
+2023-07-17 10:06:20,691 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-17 10:06:20,691 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-17 10:06:20,691 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-17 10:06:20,697 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: resume
+2023-07-17 10:06:20,697 INFO    HandlerThread:6344 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-17 10:06:20,697 INFO    HandlerThread:6344 [system_monitor.py:start():181] Starting system monitor
+2023-07-17 10:06:20,698 INFO    SystemMonitor:6344 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-17 10:06:20,720 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started cpu monitoring
+2023-07-17 10:06:20,721 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: pause
+2023-07-17 10:06:20,721 INFO    HandlerThread:6344 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-17 10:06:20,721 INFO    HandlerThread:6344 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-17 10:06:20,722 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started disk monitoring
+2023-07-17 10:06:20,722 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-17 10:06:20,722 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-17 10:06:20,722 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined disk monitor
+2023-07-17 10:06:20,722 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-17 10:06:20,723 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-17 10:06:20,723 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: resume
+2023-07-17 10:06:20,723 INFO    HandlerThread:6344 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-17 10:06:20,723 INFO    HandlerThread:6344 [system_monitor.py:start():181] Starting system monitor
+2023-07-17 10:06:20,724 INFO    SystemMonitor:6344 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-17 10:06:20,758 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started cpu monitoring
+2023-07-17 10:06:20,758 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: pause
+2023-07-17 10:06:20,758 INFO    HandlerThread:6344 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-17 10:06:20,759 INFO    HandlerThread:6344 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-17 10:06:20,759 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-17 10:06:20,759 WARNING HandlerThread:6344 [interfaces.py:finish():207] Failed to finish disk monitoring: cannot join thread before it is started
+2023-07-17 10:06:20,760 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started disk monitoring
+2023-07-17 10:06:20,761 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-17 10:06:20,761 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-17 10:06:20,761 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-17 10:06:20,762 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: resume
+2023-07-17 10:06:20,762 INFO    HandlerThread:6344 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-17 10:06:20,762 INFO    HandlerThread:6344 [system_monitor.py:start():181] Starting system monitor
+2023-07-17 10:06:20,762 INFO    SystemMonitor:6344 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-17 10:06:20,865 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started cpu monitoring
+2023-07-17 10:06:20,870 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\conda-environment.yaml
+2023-07-17 10:06:20,870 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-metadata.json
+2023-07-17 10:06:20,872 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started disk monitoring
+2023-07-17 10:06:20,904 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started memory monitoring
+2023-07-17 10:06:20,948 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started network monitoring
+2023-07-17 10:06:22,139 DEBUG   SenderThread:6344 [sender.py:send():369] send: telemetry
+2023-07-17 10:06:22,141 DEBUG   SenderThread:6344 [sender.py:send():369] send: stats
+2023-07-17 10:06:22,141 DEBUG   SenderThread:6344 [sender.py:send():369] send: stats
+2023-07-17 10:06:22,143 DEBUG   SenderThread:6344 [sender.py:send():369] send: stats
+2023-07-17 10:06:22,640 INFO    wandb-upload_0:6344 [upload_job.py:push():133] Uploaded file C:\Users\aswin\AppData\Local\Temp\tmp269699mzwandb\ykfhoxbk-wandb-metadata.json
+2023-07-17 10:06:23,149 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:06:26,643 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: pause
+2023-07-17 10:06:26,643 INFO    HandlerThread:6344 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-17 10:06:26,643 INFO    HandlerThread:6344 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-17 10:06:26,643 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-17 10:06:26,644 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-17 10:06:26,644 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-17 10:06:26,644 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-17 10:06:26,645 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined disk monitor
+2023-07-17 10:06:26,645 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined memory monitor
+2023-07-17 10:06:26,645 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined network monitor
+2023-07-17 10:06:26,645 DEBUG   SenderThread:6344 [sender.py:send():369] send: stats
+2023-07-17 10:06:26,651 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: resume
+2023-07-17 10:06:26,651 INFO    HandlerThread:6344 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-17 10:06:26,651 INFO    HandlerThread:6344 [system_monitor.py:start():181] Starting system monitor
+2023-07-17 10:06:26,651 INFO    SystemMonitor:6344 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-17 10:06:26,675 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started cpu monitoring
+2023-07-17 10:06:26,677 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: pause
+2023-07-17 10:06:26,677 DEBUG   SenderThread:6344 [sender.py:send():369] send: telemetry
+2023-07-17 10:06:26,677 INFO    HandlerThread:6344 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-17 10:06:26,678 INFO    HandlerThread:6344 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-17 10:06:26,678 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started disk monitoring
+2023-07-17 10:06:26,678 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-17 10:06:26,679 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-17 10:06:26,679 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-17 10:06:26,679 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined disk monitor
+2023-07-17 10:06:26,679 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-17 10:06:26,680 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: resume
+2023-07-17 10:06:26,680 INFO    HandlerThread:6344 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-17 10:06:26,680 INFO    HandlerThread:6344 [system_monitor.py:start():181] Starting system monitor
+2023-07-17 10:06:26,680 INFO    SystemMonitor:6344 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-17 10:06:26,750 DEBUG   SenderThread:6344 [sender.py:send():369] send: stats
+2023-07-17 10:06:26,751 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started cpu monitoring
+2023-07-17 10:06:26,754 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started disk monitoring
+2023-07-17 10:06:26,780 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started memory monitoring
+2023-07-17 10:06:26,834 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started network monitoring
+2023-07-17 10:06:26,938 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:06:28,785 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:06:28,954 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:06:30,982 DEBUG   SenderThread:6344 [sender.py:send():369] send: files
+2023-07-17 10:06:30,982 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file media\graph\graph_4_summary_dba40c449a25a33b5ae3.graph.json with policy now
+2023-07-17 10:06:30,985 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:06:30,985 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:06:31,267 INFO    wandb-upload_0:6344 [upload_job.py:push():133] Uploaded file C:\Users\aswin\AppData\Local\Temp\tmp269699mzwandb\a5venojp-media/graph/graph_4_summary_dba40c449a25a33b5ae3.graph.json
+2023-07-17 10:06:31,981 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:06:31,981 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\media\graph\graph_4_summary_dba40c449a25a33b5ae3.graph.json
+2023-07-17 10:06:31,982 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\media\graph
+2023-07-17 10:06:31,982 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\media
+2023-07-17 10:06:32,427 INFO    wandb-upload_0:6344 [upload_job.py:push():133] Uploaded file C:\Users\aswin\AppData\Local\Temp\tmp269699mzwandb\6a6os9yv-media/graph/graph_4_summary_dba40c449a25a33b5ae3.graph.json
+2023-07-17 10:06:34,056 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:06:35,682 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:06:35,683 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:06:36,853 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:06:36,855 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:06:36,857 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:06:36,858 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:06:37,149 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:06:39,205 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:06:39,893 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:06:44,914 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:06:45,280 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\config.yaml
+2023-07-17 10:06:46,791 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:06:46,794 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:06:46,795 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:06:46,797 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:06:47,310 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:06:48,326 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:06:50,691 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:06:50,692 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:06:50,756 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:06:55,811 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:06:56,396 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:06:56,397 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:06:56,398 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:06:56,401 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:06:56,429 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:06:58,451 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:07:01,479 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:07:05,696 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:07:05,697 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:07:06,470 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:06,474 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:07:06,474 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:07:06,477 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:07:06,559 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:07:07,479 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:07:08,586 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:07:12,531 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:07:16,450 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:16,451 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:16,453 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:16,455 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:16,457 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:16,458 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:16,983 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:17,000 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:07:17,005 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:07:17,010 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:07:17,730 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:07:18,020 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:07:18,739 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:07:20,705 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:07:20,705 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:07:21,677 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:21,680 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:07:21,681 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:07:21,685 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:07:21,797 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:07:23,706 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:07:26,864 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-17 10:07:26,866 DEBUG   SenderThread:6344 [sender.py:send():369] send: stats
+2023-07-17 10:07:27,472 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:27,477 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:07:27,477 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:07:27,479 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:07:27,912 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:07:28,916 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:07:29,502 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:07:32,646 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:32,649 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:32,651 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:32,654 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:32,658 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:32,670 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:34,550 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:07:35,726 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:07:35,727 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:07:38,512 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:38,518 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:07:38,519 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:07:38,522 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:07:39,070 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:07:40,553 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:07:41,133 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:07:45,595 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:07:50,328 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:07:50,331 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:07:50,332 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:07:50,335 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:07:50,417 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:07:50,727 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:07:50,728 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:07:50,806 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:07:52,475 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:07:55,837 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:07:56,869 DEBUG   SenderThread:6344 [sender.py:send():369] send: stats
+2023-07-17 10:08:00,905 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:08:01,031 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:01,034 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:08:01,034 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:08:01,039 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:08:01,702 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:08:02,712 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:08:05,736 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:08:05,737 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:08:06,862 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:08:11,397 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:11,398 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:11,400 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:11,401 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:11,412 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:11,413 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:11,900 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:08:11,904 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:11,909 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:08:11,922 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:08:11,929 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:08:12,043 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:08:15,103 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:08:16,979 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:08:20,774 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:08:20,775 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:08:21,942 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:21,946 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:08:21,947 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:08:21,951 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:08:22,304 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:08:22,961 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:08:24,350 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:08:26,878 DEBUG   SenderThread:6344 [sender.py:send():369] send: stats
+2023-07-17 10:08:28,891 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:08:31,780 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:31,785 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:08:31,785 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:08:31,789 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:08:32,573 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:08:32,573 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:08:34,809 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:08:35,778 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:08:35,779 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:08:36,182 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:36,185 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:08:36,185 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:08:36,188 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:36,188 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:08:36,190 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:36,192 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:36,196 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:36,199 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:36,209 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:36,662 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:08:40,239 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:08:41,692 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:41,699 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:08:41,700 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:08:41,704 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:08:41,786 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:08:42,831 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:08:45,743 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:08:50,803 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:08:50,805 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:08:50,882 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:08:51,384 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:08:51,387 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:08:51,388 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:08:51,391 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:08:52,052 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:08:53,094 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:08:56,448 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:08:56,885 DEBUG   SenderThread:6344 [sender.py:send():369] send: stats
+2023-07-17 10:09:00,694 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:00,695 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:00,698 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:00,698 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:00,700 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:00,700 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:01,221 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:01,226 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:09:01,227 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:09:01,232 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:09:01,309 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:09:02,247 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:09:02,328 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:09:05,811 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:09:05,812 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:09:07,887 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:09:11,827 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:11,830 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:09:11,831 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:09:11,834 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:09:12,713 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:09:12,715 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:09:13,865 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:09:18,934 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:09:20,819 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:09:20,819 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:09:21,755 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:21,758 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:09:21,758 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:09:21,762 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:09:21,974 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:09:22,981 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:09:24,797 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:09:26,888 DEBUG   SenderThread:6344 [sender.py:send():369] send: stats
+2023-07-17 10:09:29,931 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:09:31,483 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:31,487 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:09:31,487 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:09:31,489 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:09:32,290 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:09:33,306 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:09:35,523 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:09:35,834 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:09:35,834 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:09:35,853 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:35,859 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:35,860 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:35,862 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:35,867 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:35,871 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:35,880 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:35,891 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:09:35,891 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:09:35,895 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:09:36,395 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:09:40,946 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:09:41,331 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:41,336 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:09:41,338 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:09:41,341 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:09:41,493 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:09:42,543 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:09:46,375 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:09:50,681 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:50,682 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:50,686 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:50,687 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:50,689 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:50,690 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:50,843 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-17 10:09:50,843 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: stop_status
+2023-07-17 10:09:51,213 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: pause
+2023-07-17 10:09:51,213 INFO    HandlerThread:6344 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-17 10:09:51,213 INFO    HandlerThread:6344 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-17 10:09:51,214 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-17 10:09:51,214 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-17 10:09:51,215 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-17 10:09:51,215 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined disk monitor
+2023-07-17 10:09:51,215 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined memory monitor
+2023-07-17 10:09:51,215 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined network monitor
+2023-07-17 10:09:51,216 DEBUG   SenderThread:6344 [sender.py:send():369] send: stats
+2023-07-17 10:09:51,235 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: resume
+2023-07-17 10:09:51,235 INFO    HandlerThread:6344 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-17 10:09:51,235 INFO    HandlerThread:6344 [system_monitor.py:start():181] Starting system monitor
+2023-07-17 10:09:51,237 INFO    SystemMonitor:6344 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-17 10:09:51,257 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started cpu monitoring
+2023-07-17 10:09:51,258 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started disk monitoring
+2023-07-17 10:09:51,278 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started memory monitoring
+2023-07-17 10:09:51,308 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started network monitoring
+2023-07-17 10:09:51,460 DEBUG   SenderThread:6344 [sender.py:send():369] send: files
+2023-07-17 10:09:51,460 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file media\images\train-test loss per epoch_22_7d7c11492df11d779d87.png with policy now
+2023-07-17 10:09:51,461 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-17 10:09:51,465 DEBUG   SenderThread:6344 [sender.py:send():369] send: history
+2023-07-17 10:09:51,465 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:09:51,466 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: summary_record
+2023-07-17 10:09:51,469 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:09:51,607 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: pause
+2023-07-17 10:09:51,608 INFO    HandlerThread:6344 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-17 10:09:51,608 INFO    HandlerThread:6344 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-17 10:09:51,608 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-17 10:09:51,609 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-17 10:09:51,609 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-17 10:09:51,609 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-17 10:09:51,609 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined disk monitor
+2023-07-17 10:09:51,609 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined memory monitor
+2023-07-17 10:09:51,609 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined network monitor
+2023-07-17 10:09:51,610 DEBUG   SenderThread:6344 [sender.py:send():369] send: stats
+2023-07-17 10:09:51,616 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: resume
+2023-07-17 10:09:51,616 INFO    HandlerThread:6344 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-17 10:09:51,616 INFO    HandlerThread:6344 [system_monitor.py:start():181] Starting system monitor
+2023-07-17 10:09:51,617 INFO    SystemMonitor:6344 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-17 10:09:51,652 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started cpu monitoring
+2023-07-17 10:09:51,653 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: pause
+2023-07-17 10:09:51,653 INFO    HandlerThread:6344 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-17 10:09:51,653 INFO    HandlerThread:6344 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-17 10:09:51,654 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-17 10:09:51,654 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined disk monitor
+2023-07-17 10:09:51,654 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started disk monitoring
+2023-07-17 10:09:51,654 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-17 10:09:51,654 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-17 10:09:51,654 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-17 10:09:51,656 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: resume
+2023-07-17 10:09:51,656 INFO    HandlerThread:6344 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-17 10:09:51,656 INFO    HandlerThread:6344 [system_monitor.py:start():181] Starting system monitor
+2023-07-17 10:09:51,656 INFO    SystemMonitor:6344 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-17 10:09:51,657 DEBUG   SenderThread:6344 [sender.py:send():369] send: telemetry
+2023-07-17 10:09:51,677 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started cpu monitoring
+2023-07-17 10:09:51,677 DEBUG   SenderThread:6344 [sender.py:send():369] send: stats
+2023-07-17 10:09:51,678 DEBUG   SenderThread:6344 [sender.py:send():369] send: exit
+2023-07-17 10:09:51,678 INFO    SenderThread:6344 [sender.py:send_exit():574] handling exit code: 0
+2023-07-17 10:09:51,678 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started disk monitoring
+2023-07-17 10:09:51,678 INFO    SenderThread:6344 [sender.py:send_exit():576] handling runtime: 218
+2023-07-17 10:09:51,698 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started memory monitoring
+2023-07-17 10:09:51,718 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:09:51,738 INFO    SystemMonitor:6344 [interfaces.py:start():190] Started network monitoring
+2023-07-17 10:09:51,739 INFO    SenderThread:6344 [sender.py:send_exit():582] send defer
+2023-07-17 10:09:51,739 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:51,739 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-17 10:09:51,740 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:51,740 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-07-17 10:09:51,740 INFO    SenderThread:6344 [sender.py:transition_state():602] send defer: 1
+2023-07-17 10:09:51,740 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:51,741 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-17 10:09:51,741 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:51,741 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-07-17 10:09:51,741 INFO    SenderThread:6344 [sender.py:transition_state():602] send defer: 2
+2023-07-17 10:09:51,741 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:51,741 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-17 10:09:51,741 INFO    HandlerThread:6344 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-17 10:09:51,742 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-17 10:09:51,742 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-17 10:09:51,742 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-17 10:09:51,742 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined disk monitor
+2023-07-17 10:09:51,742 DEBUG   SystemMonitor:6344 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-17 10:09:51,742 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined memory monitor
+2023-07-17 10:09:51,744 INFO    HandlerThread:6344 [interfaces.py:finish():202] Joined network monitor
+2023-07-17 10:09:51,745 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:51,745 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-07-17 10:09:51,745 INFO    SenderThread:6344 [sender.py:transition_state():602] send defer: 3
+2023-07-17 10:09:51,745 DEBUG   SenderThread:6344 [sender.py:send():369] send: stats
+2023-07-17 10:09:51,745 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:51,745 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-17 10:09:51,746 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:51,746 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-07-17 10:09:51,746 INFO    SenderThread:6344 [sender.py:transition_state():602] send defer: 4
+2023-07-17 10:09:51,746 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:51,746 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-17 10:09:51,746 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:51,746 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-07-17 10:09:51,746 INFO    SenderThread:6344 [sender.py:transition_state():602] send defer: 5
+2023-07-17 10:09:51,747 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:51,747 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-17 10:09:51,750 DEBUG   SenderThread:6344 [sender.py:send():369] send: summary
+2023-07-17 10:09:51,754 INFO    SenderThread:6344 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-17 10:09:51,754 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:51,754 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-07-17 10:09:51,754 INFO    SenderThread:6344 [sender.py:transition_state():602] send defer: 6
+2023-07-17 10:09:51,754 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:51,754 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-17 10:09:51,756 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:51,756 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-07-17 10:09:51,760 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: status_report
+2023-07-17 10:09:51,762 INFO    wandb-upload_0:6344 [upload_job.py:push():133] Uploaded file C:\Users\aswin\AppData\Local\Temp\tmp269699mzwandb\9xb8ff44-media/images/train-test loss per epoch_22_7d7c11492df11d779d87.png
+2023-07-17 10:09:51,762 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:09:51,763 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\media\images\train-test loss per epoch_22_7d7c11492df11d779d87.png
+2023-07-17 10:09:51,763 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\media
+2023-07-17 10:09:51,764 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_created():272] file/dir created: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\media\images
+2023-07-17 10:09:51,857 INFO    SenderThread:6344 [sender.py:transition_state():602] send defer: 7
+2023-07-17 10:09:51,858 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:51,858 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-17 10:09:51,859 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:51,859 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-07-17 10:09:52,236 INFO    wandb-upload_0:6344 [upload_job.py:push():133] Uploaded file C:\Users\aswin\AppData\Local\Temp\tmp269699mzwandb\j7t0906g-media/images/train-test loss per epoch_22_7d7c11492df11d779d87.png
+2023-07-17 10:09:52,674 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-17 10:09:52,768 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:09:52,768 INFO    Thread-65 :6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\config.yaml
+2023-07-17 10:09:52,872 INFO    SenderThread:6344 [sender.py:transition_state():602] send defer: 8
+2023-07-17 10:09:52,873 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: poll_exit
+2023-07-17 10:09:52,873 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:52,873 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-17 10:09:52,873 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:52,873 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-07-17 10:09:52,873 INFO    SenderThread:6344 [job_builder.py:build():240] Attempting to build job artifact
+2023-07-17 10:09:52,874 INFO    SenderThread:6344 [job_builder.py:build():259] run is notebook based run
+2023-07-17 10:09:52,874 INFO    SenderThread:6344 [job_builder.py:build():274] no source found
+2023-07-17 10:09:52,875 INFO    SenderThread:6344 [sender.py:transition_state():602] send defer: 9
+2023-07-17 10:09:52,875 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:52,875 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-17 10:09:52,875 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:52,875 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-07-17 10:09:52,875 INFO    SenderThread:6344 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-07-17 10:09:53,689 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-17 10:09:53,783 INFO    SenderThread:6344 [dir_watcher.py:_on_file_modified():289] file/dir modified: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:09:53,783 INFO    SenderThread:6344 [dir_watcher.py:finish():389] scan: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files
+2023-07-17 10:09:53,784 INFO    SenderThread:6344 [dir_watcher.py:finish():403] scan save: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\conda-environment.yaml conda-environment.yaml
+2023-07-17 10:09:53,784 INFO    SenderThread:6344 [dir_watcher.py:finish():403] scan save: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\config.yaml config.yaml
+2023-07-17 10:09:53,790 INFO    SenderThread:6344 [dir_watcher.py:finish():403] scan save: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log output.log
+2023-07-17 10:09:53,790 INFO    SenderThread:6344 [dir_watcher.py:finish():403] scan save: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\requirements.txt requirements.txt
+2023-07-17 10:09:53,794 INFO    SenderThread:6344 [dir_watcher.py:finish():403] scan save: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-metadata.json wandb-metadata.json
+2023-07-17 10:09:53,794 INFO    SenderThread:6344 [dir_watcher.py:finish():403] scan save: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json wandb-summary.json
+2023-07-17 10:09:53,799 INFO    SenderThread:6344 [dir_watcher.py:finish():403] scan save: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\media\graph\graph_4_summary_dba40c449a25a33b5ae3.graph.json media/graph/graph_4_summary_dba40c449a25a33b5ae3.graph.json
+2023-07-17 10:09:53,800 INFO    SenderThread:6344 [dir_watcher.py:finish():403] scan save: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\media\images\train-test loss per epoch_22_7d7c11492df11d779d87.png media/images/train-test loss per epoch_22_7d7c11492df11d779d87.png
+2023-07-17 10:09:53,800 INFO    SenderThread:6344 [sender.py:transition_state():602] send defer: 10
+2023-07-17 10:09:53,800 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: poll_exit
+2023-07-17 10:09:53,800 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:53,800 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-17 10:09:53,801 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:53,801 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-07-17 10:09:53,801 INFO    SenderThread:6344 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-17 10:09:54,157 INFO    wandb-upload_0:6344 [upload_job.py:push():133] Uploaded file d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\conda-environment.yaml
+2023-07-17 10:09:54,693 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-17 10:09:54,694 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: poll_exit
+2023-07-17 10:09:55,251 INFO    wandb-upload_3:6344 [upload_job.py:push():133] Uploaded file d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\requirements.txt
+2023-07-17 10:09:55,452 INFO    wandb-upload_1:6344 [upload_job.py:push():133] Uploaded file d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\config.yaml
+2023-07-17 10:09:55,697 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-17 10:09:55,698 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: poll_exit
+2023-07-17 10:09:56,143 INFO    wandb-upload_2:6344 [upload_job.py:push():133] Uploaded file d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\output.log
+2023-07-17 10:09:56,172 INFO    wandb-upload_4:6344 [upload_job.py:push():133] Uploaded file d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\files\wandb-summary.json
+2023-07-17 10:09:56,384 INFO    Thread-64 (_thread_body):6344 [sender.py:transition_state():602] send defer: 11
+2023-07-17 10:09:56,384 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:56,384 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-17 10:09:56,385 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:56,385 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-07-17 10:09:56,385 INFO    SenderThread:6344 [file_pusher.py:join():164] waiting for file pusher
+2023-07-17 10:09:56,385 INFO    SenderThread:6344 [sender.py:transition_state():602] send defer: 12
+2023-07-17 10:09:56,385 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:56,385 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-17 10:09:56,385 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:56,386 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-07-17 10:09:56,524 INFO    SenderThread:6344 [sender.py:transition_state():602] send defer: 13
+2023-07-17 10:09:56,524 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:56,524 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-17 10:09:56,525 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:56,525 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-07-17 10:09:56,525 INFO    SenderThread:6344 [sender.py:transition_state():602] send defer: 14
+2023-07-17 10:09:56,525 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: defer
+2023-07-17 10:09:56,525 DEBUG   SenderThread:6344 [sender.py:send():369] send: final
+2023-07-17 10:09:56,526 INFO    HandlerThread:6344 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-17 10:09:56,526 DEBUG   SenderThread:6344 [sender.py:send():369] send: footer
+2023-07-17 10:09:56,526 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: defer
+2023-07-17 10:09:56,526 INFO    SenderThread:6344 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-07-17 10:09:56,527 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-17 10:09:56,527 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: server_info
+2023-07-17 10:09:56,527 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-17 10:09:56,528 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-17 10:09:56,528 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: poll_exit
+2023-07-17 10:09:56,529 DEBUG   SenderThread:6344 [sender.py:send_request():396] send_request: server_info
+2023-07-17 10:09:56,629 DEBUG   HandlerThread:6344 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-17 10:09:56,630 INFO    HandlerThread:6344 [handler.py:finish():854] shutting down handler
+2023-07-17 10:09:57,538 INFO    WriterThread:6344 [datastore.py:close():298] close: d:\Intent Modelling\wandb\run-20230717_100611-9qku1q90\run-9qku1q90.wandb
+2023-07-17 10:09:57,633 INFO    SenderThread:6344 [sender.py:finish():1526] shutting down sender
+2023-07-17 10:09:57,633 INFO    SenderThread:6344 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-17 10:09:57,633 INFO    SenderThread:6344 [file_pusher.py:join():164] waiting for file pusher

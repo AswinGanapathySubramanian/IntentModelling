@@ -1,0 +1,112 @@
+Actual loss: 0.6945285797119141
+Expected Theoretical loss: 0.6931471805599453
+[34m[1mwandb[39m[22m: logging graph, to disable use `wandb.watch(log_graph=False)`
+Validation loss has decreased (inf --> 0.219364). Saving Model..
+Epochs : 1 / 40
+Time to complete 1 is 0:00:11.625161
+Train loss:   0.5034
+Valid lodd:  0.2194
+Validationn loss had decreased (0.219364) --> 0.174255). Saving model..
+Epochs : 2 / 40
+Time to complete 2 is 0:00:11.811730
+Train loss:   0.2638
+Valid lodd:  0.1743
+Early Stopping counter: 1 out of 5
+Epochs : 3 / 40
+Time to complete 3 is 0:00:10.350615
+Train loss:   0.1958
+Valid lodd:  0.2016
+Validationn loss had decreased (0.174255) --> 0.162419). Saving model..
+Epochs : 4 / 40
+Time to complete 4 is 0:00:10.688832
+Train loss:   0.1851
+Valid lodd:  0.1624
+Validationn loss had decreased (0.162419) --> 0.151606). Saving model..
+Epochs : 5 / 40
+Time to complete 5 is 0:00:10.264712
+Train loss:   0.1494
+Valid lodd:  0.1516
+Validationn loss had decreased (0.151606) --> 0.151163). Saving model..
+Epochs : 6 / 40
+Time to complete 6 is 0:00:10.283703
+Train loss:   0.1507
+Valid lodd:  0.1512
+Validationn loss had decreased (0.151163) --> 0.148169). Saving model..
+Epochs : 7 / 40
+Time to complete 7 is 0:00:10.264567
+Train loss:   0.1440
+Valid lodd:  0.1482
+Validationn loss had decreased (0.148169) --> 0.147307). Saving model..
+Epochs : 8 / 40
+Time to complete 8 is 0:00:10.146917
+Train loss:   0.1375
+Valid lodd:  0.1473
+Validationn loss had decreased (0.147307) --> 0.140877). Saving model..
+Epochs : 9 / 40
+Time to complete 9 is 0:00:10.283309
+Train loss:   0.1292
+Valid lodd:  0.1409
+Validationn loss had decreased (0.140877) --> 0.138617). Saving model..
+Epochs : 10 / 40
+Time to complete 10 is 0:00:10.132892
+Train loss:   0.1228
+Valid lodd:  0.1386
+Validationn loss had decreased (0.138617) --> 0.136050). Saving model..
+Epochs : 11 / 40
+Time to complete 11 is 0:00:09.900121
+Train loss:   0.1149
+Valid lodd:  0.1360
+Validationn loss had decreased (0.136050) --> 0.133228). Saving model..
+Epochs : 12 / 40
+Time to complete 12 is 0:00:09.978542
+Train loss:   0.1054
+Valid lodd:  0.1332
+Validationn loss had decreased (0.133228) --> 0.129598). Saving model..
+Epochs : 13 / 40
+Time to complete 13 is 0:00:10.083338
+Train loss:   0.0957
+Valid lodd:  0.1296
+Validationn loss had decreased (0.129598) --> 0.128153). Saving model..
+Epochs : 14 / 40
+Time to complete 14 is 0:00:10.121759
+Train loss:   0.0871
+Valid lodd:  0.1282
+Validationn loss had decreased (0.128153) --> 0.127176). Saving model..
+Epochs : 15 / 40
+Time to complete 15 is 0:00:10.224605
+Train loss:   0.0764
+Valid lodd:  0.1272
+Early Stopping counter: 1 out of 5
+Epochs : 16 / 40
+Time to complete 16 is 0:00:11.193301
+Train loss:   0.0677
+Valid lodd:  0.1273
+Early Stopping counter: 2 out of 5
+Epochs : 17 / 40
+Time to complete 17 is 0:00:10.128694
+Train loss:   0.0584
+Valid lodd:  0.1291
+Early Stopping counter: 3 out of 5
+Epochs : 18 / 40
+Time to complete 18 is 0:00:10.233140
+Train loss:   0.0489
+Valid lodd:  0.1319
+Early Stopping counter: 4 out of 5
+Epochs : 19 / 40
+Time to complete 19 is 0:00:10.115286
+Train loss:   0.0413
+Valid lodd:  0.1343
+Early Stopping counter: 5 out of 5
+Epochs : 20 / 40
+Time to complete 20 is 0:00:10.152924
+Train loss:   0.0337
+Valid lodd:  0.1404
+Early Stopping counter: 6 out of 5
+Early Stopping
+Accuracy: 3902.397743300423%
+Weighted F1 score: 0.60
+c:\Users\aswin\anaconda3\envs\DeepL\Lib\site-packages\sklearn\metrics\_classification.py:1609: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no true nor predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, "true nor predicted", "F-score is", len(true_sum))
+Weighted F1 score: 0.60
+c:\Users\aswin\anaconda3\envs\DeepL\Lib\site-packages\sklearn\metrics\_classification.py:1609: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no true nor predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, "true nor predicted", "F-score is", len(true_sum))

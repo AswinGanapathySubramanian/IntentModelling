@@ -1,0 +1,124 @@
+Actual loss: 0.691810131072998
+Expected Theoretical loss: 0.6931471805599453
+[34m[1mwandb[39m[22m: logging graph, to disable use `wandb.watch(log_graph=False)`
+Validation loss has decreased (inf --> 0.107583). Saving Model..
+Epochs : 1 / 40
+Time to complete 1 is 0:00:11.131427
+Train loss:   0.1865
+Valid lodd:  0.1076
+Validationn loss had decreased (0.107583) --> 0.086130). Saving model..
+Epochs : 2 / 40
+Time to complete 2 is 0:00:10.438677
+Train loss:   0.0898
+Valid lodd:  0.0861
+Validationn loss had decreased (0.086130) --> 0.070607). Saving model..
+Epochs : 3 / 40
+Time to complete 3 is 0:00:09.943314
+Train loss:   0.0662
+Valid lodd:  0.0706
+Validationn loss had decreased (0.070607) --> 0.066017). Saving model..
+Epochs : 4 / 40
+Time to complete 4 is 0:00:10.246464
+Train loss:   0.0444
+Valid lodd:  0.0660
+Early Stopping counter: 1 out of 5
+Epochs : 5 / 40
+Time to complete 5 is 0:00:09.920314
+Train loss:   0.0275
+Valid lodd:  0.0680
+Early Stopping counter: 2 out of 5
+Epochs : 6 / 40
+Time to complete 6 is 0:00:10.969803
+Train loss:   0.0160
+Valid lodd:  0.0755
+Early Stopping counter: 3 out of 5
+Epochs : 7 / 40
+Time to complete 7 is 0:00:11.465328
+Train loss:   0.0092
+Valid lodd:  0.0809
+Early Stopping counter: 4 out of 5
+Epochs : 8 / 40
+Time to complete 8 is 0:00:11.052541
+Train loss:   0.0050
+Valid lodd:  0.0965
+Early Stopping counter: 5 out of 5
+Epochs : 9 / 40
+Time to complete 9 is 0:00:11.044703
+Train loss:   0.0029
+Valid lodd:  0.0979
+Early Stopping counter: 6 out of 5
+Early Stopping
+Accuracy: 4652.824858757062%
+Weighted F1 score: 0.75
+c:\Users\aswin\anaconda3\envs\DeepL\Lib\site-packages\sklearn\metrics\_classification.py:1609: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no true nor predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, "true nor predicted", "F-score is", len(true_sum))
+d:\Intent Modelling\custom_preprocessor.py:40: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  if (bool(BeautifulSoup(text, "html.parser").find())==True):
+d:\Intent Modelling\custom_preprocessor.py:40: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  if (bool(BeautifulSoup(text, "html.parser").find())==True):
+['RES', 'TIME', nan, nan, nan, nan, nan, nan, nan, nan]
+['TIME', 'WAIT', nan, nan, nan, nan, nan, nan, nan, nan]
+['WARR', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['STORE', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['CREDIT', 'OWN', nan, nan, nan, nan, nan, nan, nan, nan]
+['RES', 'TIME', nan, nan, nan, nan, nan, nan, nan, nan]
+['TIME', 'WAIT', nan, nan, nan, nan, nan, nan, nan, nan]
+['WARR', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['STORE', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['CREDIT', 'OWN', nan, nan, nan, nan, nan, nan, nan, nan]
+['STORE', 'WEB', nan, nan, nan, nan, nan, nan, nan, nan]
+['ESC', 'STORE', nan, nan, nan, nan, nan, nan, nan, nan]
+[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['SHPDLV', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['CREDIT', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['GNRL', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['KNOW', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['ORDER', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['PROD', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['PROD', 'TIME', 'WARR', nan, nan, nan, nan, nan, nan, nan]
+[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['PNK', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['HANG', 'TIME', nan, nan, nan, nan, nan, nan, nan, nan]
+['RES', 'TIME', nan, nan, nan, nan, nan, nan, nan, nan]
+['TIME', 'WAIT', nan, nan, nan, nan, nan, nan, nan, nan]
+['WARR', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['STORE', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['CREDIT', 'OWN', nan, nan, nan, nan, nan, nan, nan, nan]
+['STORE', 'WEB', nan, nan, nan, nan, nan, nan, nan, nan]
+['ESC', 'STORE', nan, nan, nan, nan, nan, nan, nan, nan]
+[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['SHPDLV', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['CREDIT', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['GNRL', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['KNOW', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['ORDER', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['PROD', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['PROD', 'TIME', 'WARR', nan, nan, nan, nan, nan, nan, nan]
+[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['PNK', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['HANG', 'TIME', nan, nan, nan, nan, nan, nan, nan, nan]
+['RES', 'TIME', nan, nan, nan, nan, nan, nan, nan, nan]
+['TIME', 'WAIT', nan, nan, nan, nan, nan, nan, nan, nan]
+['WARR', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['STORE', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['CREDIT', 'OWN', nan, nan, nan, nan, nan, nan, nan, nan]
+['STORE', 'WEB', nan, nan, nan, nan, nan, nan, nan, nan]
+['ESC', 'STORE', nan, nan, nan, nan, nan, nan, nan, nan]
+['SHPDLV', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['CREDIT', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['GNRL', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['KNOW', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['ORDER', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['PROD', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['PROD', 'TIME', 'WARR', nan, nan, nan, nan, nan, nan, nan]
+['PNK', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['HANG', 'TIME', nan, nan, nan, nan, nan, nan, nan, nan]
+['ESC', 'STORE', nan, nan, nan, nan, nan, nan, nan, nan]
+['MULTI', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+['GNRL', 'LOY', 'RES', 'STORE', nan, nan, nan, nan, nan, nan]
+['STORE', nan, nan, nan, nan, nan, nan, nan, nan, nan]
+3523 441 440

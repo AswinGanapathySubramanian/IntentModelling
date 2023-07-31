@@ -1,0 +1,35 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.4",
+    "heartbeatAt": "2023-07-17T20:28:29.501485",
+    "startedAt": "2023-07-17T20:28:19.970138",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "DESKTOP-F6PF96J",
+    "username": "aswin",
+    "executable": "c:\\Users\\aswin\\anaconda3\\envs\\DeepL\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2803.0,
+        "min": 0.0,
+        "max": 2803.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2803.0,
+            "min": 0.0,
+            "max": 2803.0
+        }
+    ],
+    "disk": {
+        "total": 439.45214462280273,
+        "used": 10.80291748046875
+    },
+    "memory": {
+        "total": 15.681159973144531
+    }
+}

@@ -1,0 +1,58 @@
+Actual loss: 0.6940403580665588
+Expected Theoretical loss: 0.6931471805599453
+[34m[1mwandb[39m[22m: logging graph, to disable use `wandb.watch(log_graph=False)`
+Validation loss has decreased (inf --> 0.160976). Saving Model..
+Epochs : 1 / 40
+Time to complete 1 is 0:00:08.029995
+Train loss:   0.2679
+Valid lodd:  0.1610
+Validationn loss had decreased (0.160976) --> 0.133566). Saving model..
+Epochs : 2 / 40
+Time to complete 2 is 0:00:08.325032
+Train loss:   0.1484
+Valid lodd:  0.1336
+Validationn loss had decreased (0.133566) --> 0.111194). Saving model..
+Epochs : 3 / 40
+Time to complete 3 is 0:00:08.712187
+Train loss:   0.1137
+Valid lodd:  0.1112
+Validationn loss had decreased (0.111194) --> 0.098767). Saving model..
+Epochs : 4 / 40
+Time to complete 4 is 0:00:08.838708
+Train loss:   0.0806
+Valid lodd:  0.0988
+Validationn loss had decreased (0.098767) --> 0.094533). Saving model..
+Epochs : 5 / 40
+Time to complete 5 is 0:00:08.768711
+Train loss:   0.0521
+Valid lodd:  0.0945
+Early Stopping counter: 1 out of 5
+Epochs : 6 / 40
+Time to complete 6 is 0:00:08.798331
+Train loss:   0.0303
+Valid lodd:  0.1025
+Early Stopping counter: 2 out of 5
+Epochs : 7 / 40
+Time to complete 7 is 0:00:08.974663
+Train loss:   0.0165
+Valid lodd:  0.1082
+Early Stopping counter: 3 out of 5
+Epochs : 8 / 40
+Time to complete 8 is 0:00:09.294406
+Train loss:   0.0087
+Valid lodd:  0.1215
+Early Stopping counter: 4 out of 5
+Epochs : 9 / 40
+Time to complete 9 is 0:00:09.041106
+Train loss:   0.0049
+Valid lodd:  0.1329
+Early Stopping counter: 5 out of 5
+Epochs : 10 / 40
+Time to complete 10 is 0:00:09.189037
+Train loss:   0.0030
+Valid lodd:  0.1422
+Early Stopping counter: 6 out of 5
+Early Stopping
+Accuracy: 4649.560034061879%
+Weighted F1 score: 0.83
+d:\Intent Modelling\custom_preprocessor.py:40: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
