@@ -1,0 +1,41 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.4",
+    "heartbeatAt": "2023-08-22T20:16:03.107538",
+    "startedAt": "2023-08-22T20:16:01.072607",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/AswinGanapathySubramanian/IntentModelling.git",
+        "commit": "d0174cc355148c59b991fe900d5109a17d005560"
+    },
+    "email": "gaswin@amplifai.com",
+    "root": "D:/Github repos/IntentModelling",
+    "host": "DESKTOP-F6PF96J",
+    "username": "aswin",
+    "executable": "c:\\Users\\aswin\\anaconda3\\envs\\DeepL\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2803.0,
+        "min": 0.0,
+        "max": 2803.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2803.0,
+            "min": 0.0,
+            "max": 2803.0
+        }
+    ],
+    "disk": {
+        "total": 439.45214462280273,
+        "used": 11.573368072509766
+    },
+    "memory": {
+        "total": 15.681159973144531
+    }
+}

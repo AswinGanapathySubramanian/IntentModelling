@@ -1,0 +1,73 @@
+Actual loss: 0.6926751732826233
+Expected Theoretical loss: 0.6931471805599453
+[34m[1mwandb[39m[22m: logging graph, to disable use `wandb.watch(log_graph=False)`
+Validation loss has decreased (inf --> 0.241736). Saving Model..
+Epochs : 1 / 40
+Time to complete 1 is 0:00:13.380028
+Train loss:   0.3089
+Valid lodd:  0.2417
+Validationn loss had decreased (0.241736) --> 0.219807). Saving model..
+Epochs : 2 / 40
+Time to complete 2 is 0:00:12.692757
+Train loss:   0.1576
+Valid lodd:  0.2198
+Early Stopping counter: 1 out of 5
+Epochs : 3 / 40
+Time to complete 3 is 0:00:11.834369
+Train loss:   0.0712
+Valid lodd:  0.2439
+Validationn loss had decreased (0.219807) --> 0.206728). Saving model..
+Epochs : 4 / 40
+Time to complete 4 is 0:00:13.444657
+Train loss:   0.0345
+Valid lodd:  0.2067
+Early Stopping counter: 1 out of 5
+Epochs : 5 / 40
+Time to complete 5 is 0:00:10.634070
+Train loss:   0.0365
+Valid lodd:  0.2347
+Early Stopping counter: 2 out of 5
+Epochs : 6 / 40
+Time to complete 6 is 0:00:11.470139
+Train loss:   0.0230
+Valid lodd:  0.2633
+Early Stopping counter: 3 out of 5
+Epochs : 7 / 40
+Time to complete 7 is 0:00:11.114952
+Train loss:   0.0264
+Valid lodd:  0.3538
+Early Stopping counter: 4 out of 5
+Epochs : 8 / 40
+Time to complete 8 is 0:00:10.950287
+Train loss:   0.0353
+Valid lodd:  0.2838
+Early Stopping counter: 5 out of 5
+Epochs : 9 / 40
+Time to complete 9 is 0:00:11.828110
+Train loss:   0.0487
+Valid lodd:  0.3498
+Early Stopping counter: 6 out of 5
+Early Stopping
+An exception occured: TypeError("object of type 'float' has no len()")
+d:\Github repos\IntentModelling\custom_preprocessor.py:40: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  if (bool(BeautifulSoup(text, "html.parser").find())==True):
+An exception occured: TypeError("object of type 'int' has no len()")
+d:\Github repos\IntentModelling\custom_preprocessor.py:40: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  if (bool(BeautifulSoup(text, "html.parser").find())==True):
+None
+d:\Github repos\IntentModelling\custom_preprocessor.py:40: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  if (bool(BeautifulSoup(text, "html.parser").find())==True):
+An exception occured: TypeError("object of type 'int' has no len()")
+An exception occured: TypeError("object of type 'int' has no len()")
+d:\Github repos\IntentModelling\custom_preprocessor.py:40: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  if (bool(BeautifulSoup(text, "html.parser").find())==True):
+An exception occured: TypeError("object of type 'int' has no len()")
+An exception occured: TypeError("object of type 'int' has no len()")
+d:\Github repos\IntentModelling\custom_preprocessor.py:40: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  if (bool(BeautifulSoup(text, "html.parser").find())==True):
+C:\Users\aswin\AppData\Local\Temp\ipykernel_87260\578860732.py:2: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  t3["cleaned_text"]= preprocessor.fit_transform(t3['comments'].values)
+d:\Github repos\IntentModelling\custom_preprocessor.py:40: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
